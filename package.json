@@ -1,0 +1,9 @@
+{
+  "name": "cte-free-background-push",
+  "version": "25.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {"setup": "node setup.mjs", "test": "node --test test/*.test.mjs", "check": "wrangler deploy --dry-run"},
+  "devDependencies": {"wrangler": "4.136.3"},
+  "engines": {"node": ">=22.13.0"}
+}
